@@ -74,6 +74,6 @@ mod test {
 
     #[test]
     fn test_lt() {
-        assert!(Point::new(2f64, 9.3f64) < Point::new(3f64, -9.3f64));   
+        assert!(Point::new(2f64, 9.3f64) < Point::new(3f64, -9.3f64));
     }
 }

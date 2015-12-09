@@ -3,17 +3,17 @@ name = "algorithms-comp-geom"
 version = "0.1.0"
 dependencies = [
  "algo 0.1.0",
- "point 0.1.0",
+ "primitives 0.1.0",
 ]
 
 [[package]]
 name = "algo"
 version = "0.1.0"
 dependencies = [
- "point 0.1.0",
+ "primitives 0.1.0",
 ]
 
 [[package]]
-name = "point"
+name = "primitives"
 version = "0.1.0"
 

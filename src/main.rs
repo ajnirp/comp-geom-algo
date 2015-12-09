@@ -1,5 +1,5 @@
 extern crate algo;
-extern crate point;
+extern crate primitives;
 
 fn main() {
     
@@ -7,7 +7,7 @@ fn main() {
 
 #[cfg(test)]
 mod test {
-    use point::point::Point;
+    use primitives::point::Point;
     use algo::graham;
 
     #[test]

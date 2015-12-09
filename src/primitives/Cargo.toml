@@ -1,8 +1,8 @@
 [package]
-name = "point"
+name = "primitives"
 version = "0.1.0"
 authors = ["Rohan Prinja <rohan.prinja@gmail.com>"]
 
 [lib]
-name = "point"
+name = "primitives"
 path = "lib.rs"

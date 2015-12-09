@@ -7,5 +7,5 @@ authors = ["Rohan Prinja <rohan.prinja@gmail.com>"]
 name = "algo"
 path = "lib.rs"
 
-[dependencies.point]
-path = "../point"
+[dependencies.primitives]
+path = "../primitives"

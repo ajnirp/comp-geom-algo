@@ -6,5 +6,5 @@ authors = ["Rohan Prinja <rohan.prinja@gmail.com>"]
 [dependencies.algo]
 path = "src/algo"
 
-[dependencies.point]
-path = "src/point"
+[dependencies.primitives]
+path = "src/primitives"

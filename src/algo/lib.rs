@@ -1,3 +1,3 @@
-extern crate point;
+extern crate primitives;
 
 pub mod graham;

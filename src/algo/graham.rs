@@ -1,7 +1,7 @@
 // modified Graham scan algorithm
 // see page 13 of http://www.cs.umd.edu/~mount/754/Lects/754lects.pdf
 
-use point::point::Point;
+use primitives::point::Point;
 
 pub fn det(p: &Point, q: &Point, r: &Point) -> f64 {
     return (q.x*r.y - q.y*r.x) -
