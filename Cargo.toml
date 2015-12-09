@@ -1,0 +1,10 @@
+[package]
+name = "algorithms-comp-geom"
+version = "0.1.0"
+authors = ["Rohan Prinja <rohan.prinja@gmail.com>"]
+
+[dependencies.algo]
+path = "src/algo"
+
+[dependencies.point]
+path = "src/point"

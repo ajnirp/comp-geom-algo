@@ -1,0 +1,8 @@
+[package]
+name = "point"
+version = "0.1.0"
+authors = ["Rohan Prinja <rohan.prinja@gmail.com>"]
+
+[lib]
+name = "point"
+path = "lib.rs"
