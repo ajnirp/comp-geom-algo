@@ -8,3 +8,6 @@ path = "src/algo"
 
 [dependencies.primitives]
 path = "src/primitives"
+
+[dependencies.util]
+path = "src/util"

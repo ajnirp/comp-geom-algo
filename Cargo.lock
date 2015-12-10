@@ -4,6 +4,7 @@ version = "0.1.0"
 dependencies = [
  "algo 0.1.0",
  "primitives 0.1.0",
+ "util 0.1.0",
 ]
 
 [[package]]
@@ -11,9 +12,17 @@ name = "algo"
 version = "0.1.0"
 dependencies = [
  "primitives 0.1.0",
+ "util 0.1.0",
 ]
 
 [[package]]
 name = "primitives"
 version = "0.1.0"
+
+[[package]]
+name = "util"
+version = "0.1.0"
+dependencies = [
+ "primitives 0.1.0",
+]
 

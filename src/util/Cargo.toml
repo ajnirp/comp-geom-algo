@@ -1,14 +1,11 @@
 [package]
-name = "algo"
+name = "util"
 version = "0.1.0"
 authors = ["Rohan Prinja <rohan.prinja@gmail.com>"]
 
 [lib]
-name = "algo"
+name = "util"
 path = "lib.rs"
 
 [dependencies.primitives]
 path = "../primitives"
-
-[dependencies.util]
-path = "../util"
