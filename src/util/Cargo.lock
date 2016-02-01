@@ -1,0 +1,11 @@
+[root]
+name = "util"
+version = "0.1.0"
+dependencies = [
+ "primitives 0.1.0",
+]
+
+[[package]]
+name = "primitives"
+version = "0.1.0"
+
