@@ -29,6 +29,30 @@ fn cvx_hull(v: &Vec<Point>) -> Vec<Point> {
         return v.clone();
     }
 
-    let res = Vec::<Point>::new();
-    
+    let (mut fst, mut snd) = get_start_points(v);
+    let mut res = Vec::<Point>::new();
+
+    res.push(snd.clone());
+
+    loop {
+        let mut max_angle = -1f64;
+        let mut next_idx = 0;
+        for i in 1 .. v.len() {
+            let angle = angle(&v[i], &snd, &fst);
+            if angle > max_angle {
+                max_angle = angle;
+                next_idx = i;
+            }
+        }
+
+        if v[next_idx] == res[0] {
+            break;
+        }
+
+        res.push(v[next_idx].clone());
+        fst.clone_from(&snd);
+        snd.clone_from(&v[next_idx]);
+    }
+
+    res
 }

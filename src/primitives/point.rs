@@ -16,6 +16,16 @@ impl Point {
             y: y,
         }
     }
+
+    pub fn dist(&self, other: &Self) -> f64 {
+        let dx = self.x - other.x;
+        let dy = self.y - other.y;
+        (dx*dx + dy*dy).sqrt()
+    }
+
+    pub fn dot(&self, other: &Self) -> f64 {
+        self.x*other.x + self.y*other.y
+    }
 }
 
 impl Display for Point {
